@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Basic tags</title>
+</head>
+
+<body>
+
+<center>
+<font color="pink">
+<h1>Hello!!</h1>
+</font>
+
+<p>Welcome to my website!</p>
+
+<font color="pink">
+<h2>Bored? Click Me!</h2>
+</font>
+
+<button id="btn">Click Me!</button>
+
+<p>
+Button Clicked <span id="display">0</span> Times
+</p>
+<script type="text/javascript">
+let count = 0;
+let btn = document.getElementById("btn");
+let disp = document.getElementById("display");
+
+btn.addEventListener("click", function () {
+count++;
+disp.innerHTML = count;
+});
+</script>
+
+<img src="https://i.pinimg.com/originals/83/79/64/837964de2b44207954c1168e99260364.jpg">
+
+<p>Tips are welcome:)</p>
+</center>
+
+</body>
+</html>
